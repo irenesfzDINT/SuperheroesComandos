@@ -20,10 +20,6 @@ namespace SuperheroesMVVM
             this.DataContext = vm;
         }
 
-        private void rightImage_Click(object sender, RoutedEventArgs e)
-        {
-            vm.Siguiente();
-        }
 
         private void leftImage_Click(object sender, RoutedEventArgs e)
         {

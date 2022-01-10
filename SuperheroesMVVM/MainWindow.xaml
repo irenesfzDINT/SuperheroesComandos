@@ -71,7 +71,6 @@
                     HorizontalAlignment="Center">
             <Button x:Name="leftImage"
                     Style="{StaticResource flechas}"
-                    Click="leftImage_Click"
                     Command="{Binding Path=AnteriorCommand}">
                 <Button.Background>
                     <ImageBrush ImageSource="assets/arrow.png" />
@@ -90,7 +89,6 @@
             <Button x:Name="rightImage"
                     Style="{StaticResource flechas}"
                     RenderTransformOrigin="0.5,0.5"
-                    Click="rightImage_Click"
                     Command="{Binding Path=SiguienteCommand}">
                 <Button.RenderTransform>
                     <TransformGroup>
