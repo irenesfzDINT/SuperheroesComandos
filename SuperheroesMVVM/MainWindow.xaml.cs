@@ -19,11 +19,5 @@ namespace SuperheroesMVVM
             vm = new MainWindowVM();
             this.DataContext = vm;
         }
-
-
-        private void leftImage_Click(object sender, RoutedEventArgs e)
-        {
-            vm.Anterior();
-        }
     }
 }
