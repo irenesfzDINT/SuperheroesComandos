@@ -20,15 +20,14 @@ namespace SuperheroesMVVM
             this.DataContext = vm;
         }
 
-        private void leftImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            vm.Anterior();
-        }
-
-        private void rightImage_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        private void rightImage_Click(object sender, RoutedEventArgs e)
         {
             vm.Siguiente();
         }
 
+        private void leftImage_Click(object sender, RoutedEventArgs e)
+        {
+            vm.Anterior();
+        }
     }
 }

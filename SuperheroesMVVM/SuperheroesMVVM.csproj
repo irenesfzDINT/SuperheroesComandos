@@ -87,6 +87,7 @@
     <Compile Include="converters\FondoConverter.cs" />
     <Compile Include="converters\VisibilityConverter.cs" />
     <Compile Include="MainWindowVM.cs" />
+    <Compile Include="Servicio.cs" />
     <Compile Include="Superheroe.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
